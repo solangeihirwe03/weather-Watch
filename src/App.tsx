@@ -43,7 +43,7 @@ function App() {
   }
 
   return (
-    <div className={`w-full h-[100vh] bg-[url(background.jpg)] bg-cover bg-no-repeat flex flex-col lg:flex-row lg:justify-around items-center justify-center px-10`}>
+    <div className={`w-full h-[100vh] bg-myBackground bg-cover bg-no-repeat flex flex-col lg:flex-row lg:justify-around items-center justify-center px-10`}>
       <p className='px-4 text-lg text-white mb-3 lg:text-[36px] w-[50vw] leading-[42px]'>Stay informed and prepared with accurate weather forecasts.</p>
       <div className={`xl:w-[40vw] h-[60vh] xl:h-[60vh] ${getBackgroundClass(weather)} p-3 lg:p-10`}>
         <div className='flex'>
